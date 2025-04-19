@@ -25,7 +25,7 @@
 body {
     text-align: center;
     font-family: sadflix;
-    color: white;
+    color: rgb(5, 5, 5);
 }
 
 img {
@@ -58,8 +58,8 @@ select.input-command {
 
 .input-form {
     border-radius: 9px;
-    color: black;
-    background-color: white;
+    color: rgb(248, 245, 245);
+    background-color: rgb(247, 239, 239);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
     display: block;
     font-size: 14px;
@@ -81,7 +81,7 @@ select.input-command {
 }
 
 .input-form::-moz-placeholder {
-    color: #999;
+    color: #080808;
     opacity: 55;
 }
 
@@ -90,14 +90,14 @@ select.input-command {
 }
 
 .wrapper img {
-    width: 30%;
+    width: 50%;
 }
 
 .buttonstyle {
     background: Transparent; /* For browsers that do not support gradients */
     border-radius: 19px;
-    border: 6px white solid;
-    color: white;
+    border: 6px rgb(3, 3, 3) solid;
+    color: rgb(20, 20, 20);
     padding: 16px 33px;
     display: inline-block;
     font-size: 33px;
@@ -106,7 +106,7 @@ select.input-command {
 }
 
 #progressbarcontainer {
-    background: white;
+    background: rgb(8, 8, 8);
     border-radius: 19px;
     border: 9px white solid;
     display: none;
@@ -128,15 +128,15 @@ select.input-command {
 #progressbarlabel {
     line-height: 30px;
     text-align: center;
-    color: white;
+    color: rgb(10, 10, 10);
 }
 
 #main-tool {
-    background: #000000; /* For browsers that do not support gradients */
-    background: -webkit-radial-gradient(#000000, #000000); /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(#000000, #000000); /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient(#000000, #000000); /* For Firefox 3.6 to 15 */
-    background: radial-gradient(#000000, #000000); /* Standard syntax */
+    background: #0c0c0c; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#070707, #000000); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#0c0c0c, #131212); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#f3f2f2, #faf8f8); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#fcfbfb, #faf9f9); /* Standard syntax */
     border-radius: 9px;
     max-width: 500px;
     margin: 20px auto 20px;
@@ -163,7 +163,7 @@ select.input-command {
 #verify {
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: rgb(15, 15, 15);
     position: relative;
     background: #f98691; /* For browsers that do not support gradients */
     background: -webkit-radial-gradient(#09f5f9, #f98691); /* Safari 5.1 to 6.0 */
